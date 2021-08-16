@@ -4,7 +4,7 @@ function rgb(red, green, blue) {
     if (!red) red = 0;
     if (!green) green = 0;
     if (!blue) blue = 0;
-    return 'RGB( ' + red +',' + green +',' + blue +')'
+    return 'RGB( ' + red +',' + green +',' + blue +')';
 };
 
 function words(product) {
@@ -14,7 +14,7 @@ function words(product) {
     if (value > 10 && value < 20) return alert(`${product} товаров`);
     if (num > 1 && num < 5) return alert(`${product} товара`);
     if (num == 1) return alert(`${product} товар`);
-    return `${product} товаров`
+    return `${product} товаров`;
 };
 
 changeFunction = confirm('для вызова функции rgb() нажмите (OK), для вызова функции words() нажмите (Отмена)');
